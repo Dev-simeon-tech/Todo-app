@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Todo app</title>
+
+  
+</head>
+<body class="flex justify-center ">
+
+  <main class="todo-app">
+
+    <header class="flex space-between align-center">
+      <label class="logo">Todo</label>
+      <img class="mode-toggle" src="images/icon-moon.svg" alt="">
+    </header>
+
+    <form class="flex align-center" action="">
+      <div class="check-btn"></div>
+      <input class="todo-input" type="text" placeholder="Create a new todo...">
+    </form>
+
+    <div class="list-main">
+      <ul  class="todo-list">
+        <!-- todos goes here -->
+        <!-- <li class="todos" data-category="active">
+          <div class="flex align-center">
+            <div class="check-btn"  ></div>
+            <p>play piano for an hour</p>
+
+          </div>
+          <img class="cancel-btn" src="images/icon-cross.svg" alt="">
+        </li> -->
+      </ul>
+
+      <div class="todo-footer flex space-between">
+        <p class="items-left">0 items left</p>
+
+        <div class="filter-nav flex">
+          <button class="active" data-filter="all" >All</button>
+          <button data-filter="active" >Active </button>
+          <button data-filter="completed" >Completed</button>
+        </div>
+
+        <button class="clear-completed">Clear Completed</button>
+
+      </div>
+    </div>
+    <p class="text-center">Drag and drop to reorder list</p>
+  </main>
+
+  
+<!-- 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="drag.js"></script>
+  <script src="darkmode.js"></script>
+  <script src="filter.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
