@@ -1,7 +1,7 @@
 const  {MongoClient} = require('mongodb')
 
 const client = new MongoClient('mongodb://localhost:27017')
-const  dbName = 'todo-app';
+const  dbName = 'Todo-app';
 
 let  db
 module.exports  = {

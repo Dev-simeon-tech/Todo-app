@@ -163,7 +163,7 @@ form{
     z-index: 999;
 }
 
-.check-btn[data-active]{
+.todos[data-category = "completed"] .check-btn{
     background: url(images/icon-check.svg) ,linear-gradient(to bottom right, hsl(192, 100%, 67%) , hsl(280, 87%, 65%)) ;
     background-repeat: no-repeat;
     background-position: center;
